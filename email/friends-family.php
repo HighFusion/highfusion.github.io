@@ -14,7 +14,7 @@
                 <tr>
                     <td>
                         <a href="http://archerhotel.com" target="_blank">
-                            <img src="<?= $siteUrl ?>/images/email/lodgeworks-rates/header-employee.jpg" style="display: block; width: auto; max-width: 100%; min-width: 100px;" />
+                            <img src="<?= $siteUrl ?>/images/email/lodgeworks-rates/header-family.jpg" style="display: block; width: auto; max-width: 100%; min-width: 100px;" />
                         </a>
                     </td>
                 </tr>
