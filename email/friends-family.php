@@ -20,7 +20,7 @@
                 </tr>
                 <tr>
                     <td>
-                        <a href="#">
+                        <a href="https://gc.synxis.com/?chain=15904&hotel=67720&promo=ARCHEMFA">
                             <img src="<?= $siteUrl ?>/images/email/lodgeworks-rates/austin.jpg" style="display: block; width: auto; max-width: 100%; min-width: 100px;" />
                         </a>
                     </td>
@@ -34,7 +34,7 @@
                 </tr>
                 <tr>
                     <td>
-                        <a href="https://gc.synxis.com/?chain=15904&promo=ARCHEMFA">
+                        <a href="https://gc.synxis.com/?chain=15904&hotel=60268&promo=ARCHEMFA">
                             <img src="<?= $siteUrl ?>/images/email/lodgeworks-rates/new-york.jpg" style="display: block; width: auto; max-width: 100%; min-width: 100px;" />
                         </a>
                     </td>
