@@ -47,17 +47,15 @@
                     </td>
                 </tr>
                 <tr>
-                    <td>
-                        <a href="http://archerhotel.com" target="_blank">
-                            <img src="<?= $siteUrl ?>/images/email/shared/archer-footer.jpg" style="display: block; width: auto; max-width: 100%; min-width: 100px;" />
-                        </a>
+                    <td style="background: #000; color: #bbb; padding: 10px 10px; text-align: center;">
+                        <a href="https://twitter.com/ArcherHotel" target="_blank"><img src="<?= $siteUrl ?>/images/social/twitter.png" /></a>&nbsp;
+                        <a href="https://www.facebook.com/search/top/?q=Archer%20Hotel" target="_blank"><img src="<?= $siteUrl ?>/images/social/facebook.png" /></a>&nbsp;
+                        <a href="https://www.instagram.com/archerhotels/" target="_blank"><img src="<?= $siteUrl ?>/images/social/instagram.png" /></a>
                     </td>
                 </tr>
                 <tr>
-                    <td>
-                        <a href="http://archerhotel.com" target="_blank">
-                            <img src="<?= $siteUrl ?>/images/email/lodgeworks-rates/footer-family-notice.jpg" style="display: block; width: auto; max-width: 100%; min-width: 100px;" />
-                        </a>
+                    <td style="background: #000; color: #bbb; padding: 10px 10px;">
+                        <p><small>*Subject to availability. Cannot be combined with any other offers. Limited to three rooms per night.</small></p>
                     </td>
                 </tr>
             </table>

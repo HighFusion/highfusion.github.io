@@ -10,7 +10,7 @@
 <table style="width: 100%">
     <tr>
         <td align="center">
-            <table style="width: auto; max-width: 600px; margin: 0 auto; vertical-align: top;" cellspacing="0" cellpadding="0">
+            <table style="width: 600px; max-width: 600px; margin: 0 auto; vertical-align: top;" cellspacing="0" cellpadding="0">
                 <tr>
                     <td>
                         <a href="http://archerhotel.com" target="_blank">
@@ -42,8 +42,20 @@
                 <tr>
                     <td>
                         <a href="http://archerhotel.com" target="_blank">
-                            <img src="<?= $siteUrl ?>/images/email/lodgeworks-rates/footer-employee-notice.jpg" style="display: block; width: auto; max-width: 100%; min-width: 100px;" />
+                            <img src="<?= $siteUrl ?>/images/email/shared/archer-footer.jpg" style="display: block; width: auto; max-width: 100%; min-width: 100px;" />
                         </a>
+                    </td>
+                </tr>
+                <tr>
+                    <td style="background: #000; color: #bbb; padding: 10px 10px; text-align: center; width: 600px;" width="600">
+                        <a href="https://twitter.com/ArcherHotel" target="_blank"><img src="<?= $siteUrl ?>/images/social/twitter.png" /></a>&nbsp;
+                        <a href="https://www.facebook.com/search/top/?q=Archer%20Hotel" target="_blank"><img src="<?= $siteUrl ?>/images/social/facebook.png" /></a>&nbsp;
+                        <a href="https://www.instagram.com/archerhotels/" target="_blank"><img src="<?= $siteUrl ?>/images/social/instagram.png" /></a>
+                    </td>
+                </tr>
+                <tr>
+                    <td style="background: #000; color: #bbb; padding: 10px 10px; width: 600px" width="600">
+                        <p><small>*Subject to availability. Cannot be combined with any other offers. Limited to three rooms per night. Employee must stay at the hotel for the duration of the stay.</small></p>
                     </td>
                 </tr>
             </table>
