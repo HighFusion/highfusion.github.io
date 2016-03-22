@@ -34,7 +34,7 @@
                 </tr>
                 <tr>
                     <td>
-                        <a href="#">
+                        <a href="https://gc.synxis.com/?chain=15904&promo=ARCHEMPL">
                             <img src="<?= $siteUrl ?>/images/email/lodgeworks-rates/new-york.jpg" style="display: block; width: auto; max-width: 100%; min-width: 100px;" />
                         </a>
                     </td>
