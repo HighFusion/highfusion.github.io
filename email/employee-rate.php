@@ -9,7 +9,7 @@
 <body style="background-color: #eee; color: #222222; font-family: Helvetica, Arial, sans-serif; font-size: 14px;">
 <table style="width: 100%;">
     <tr>
-        <td align="center">
+        <td align="left">
             <table style="width: 600px; border: 1px solid #000; max-width: 600px; margin: 0 auto; vertical-align: top;" cellspacing="0" cellpadding="0">
                 <tr>
                     <td colspan="2">
