@@ -10,7 +10,7 @@
 <table style="width: 100%;">
     <tr>
         <td align="left">
-            <table style="width: 600px; border: 1px solid #000; max-width: 600px; margin: 0 auto; vertical-align: top;" cellspacing="0" cellpadding="0">
+            <table style="width: 600px; border: 1px solid #000; max-width: 600px; margin: 0; vertical-align: top;" cellspacing="0" cellpadding="0">
                 <tr>
                     <td colspan="2">
                         <a href="http://archerhotel.com" target="_blank">
