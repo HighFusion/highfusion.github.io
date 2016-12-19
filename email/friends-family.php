@@ -37,7 +37,7 @@
                         </a>
                     </td>
                     <td style="border-bottom: 5px solid #cc9933;">
-                        <a href="http://archerhotel.com/napa">
+                        <a href="https://gc.synxis.com/?chain=15904&hotel=70482&promo=ARCHEMFA">
                             <img src="<?= $siteUrl ?>/images/email/lodgeworks-rates/napa.book.jpg" style="display: block; width: auto; max-width: 100%; min-width: 100px;" />
                         </a>
                     </td>
