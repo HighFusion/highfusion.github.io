@@ -14,32 +14,36 @@
                 <tr colspan="3">
                     <td>
                         <a href="http://archerhotel.com" target="_blank">
-                            <img src="<?= $siteUrl ?>/images/email/brand/haute-sports.jpg" style="display: block; width: auto; max-width: 100%; min-width: 100px;" />
+                            <img src="<?= $siteUrl ?>/images/email/brand/haute-sports.jpg" style="width: 600px;" />
                         </a>
                     </td>
                 </tr>
                 <tr colspan="3">
                     <td>
                         <a href="http://archerhotel.com/book/smart-meetings-package">
-                            <img src="<?= $siteUrl ?>/images/email/shared/smart-meetings-package.jpg" style="display: block; width: auto; max-width: 100%; min-width: 100px;" />
+                            <img src="<?= $siteUrl ?>/images/email/shared/smart-meetings-package.jpg" style="width: 600px;" />
                         </a>
                     </td>
                 </tr>
                 <tr colspan="3">
                     <td>
                         <a href="mailto:?subject=Smart Meetings Package">
-                            <img src="<?= $siteUrl ?>/images/email/shared/share-with.jpg" style="display: block; width: auto; max-width: 100%; min-width: 100px;" />
+                            <img src="<?= $siteUrl ?>/images/email/shared/share-with-friend.jpg" style="width: 600px;" />
                         </a>
                     </td>
                 </tr>
                 <tr style="background: #000;">
                     <td style="width: 200px;" rowspan="2">
                         <a href="http://archerhotel.com" target="_blank">
-                            <img src="<?= $siteUrl ?>/images/email/shared/footer-logo" style="display: block; width: auto; max-width: 100%; min-width: 100px;" />
+                            <img src="<?= $siteUrl ?>/images/email/shared/footer-logo.jpg" style="display: block; width: auto; max-width: 100%; min-width: 100px;" />
                         </a>
                     </td>
-                    <td style="width: 400px;">
-
+                    <td style="width: 400px; height: 78px;">
+                        <a href="http://facebook.com/archerhotelaustin"><img src="<?= $siteUrl ?>/images/email/shared/icon-facebook.jpg" /></a>&nbsp;
+                        <a href="twitter.com/archerhotel"><img src="<?= $siteUrl ?>/images/email/shared/icon-twitter.jpg" /></a>&nbsp;
+                        <a href="http://instagram.com/archerhotels"><img src="<?= $siteUrl ?>/images/email/shared/icon-instagram.jpg" /></a>&nbsp;
+                        <a href="http://pinterest.com/archerhotel"><img src="<?= $siteUrl ?>/images/email/shared/icon-pinterest.jpg" /></a>&nbsp;
+                        <a href="https://www.youtube.com/channel/UCZ5MX16VUWxKo62fOBg1oEg"><img src="<?= $siteUrl ?>/images/email/shared/icon-youtube.jpg" /></a>&nbsp;
                     </td>
                 </tr>
                 <tr style="background: #000;">
