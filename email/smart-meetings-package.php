@@ -11,27 +11,29 @@
     <tr>
         <td align="center">
             <table style="width: auto; max-width: 600px; margin: 0 auto; vertical-align: top;" cellspacing="0" cellpadding="0">
-                <tr colspan="3">
+                <tr>
                     <td>
                         <a href="http://archerhotel.com" target="_blank">
                             <img src="<?= $siteUrl ?>/images/email/brand/haute-sports.jpg" style="width: 600px;" />
                         </a>
                     </td>
                 </tr>
-                <tr colspan="3">
+                <tr>
                     <td>
                         <a href="http://archerhotel.com/book/smart-meetings-package">
                             <img src="<?= $siteUrl ?>/images/email/shared/smart-meetings-package.jpg" style="width: 600px;" />
                         </a>
                     </td>
                 </tr>
-                <tr colspan="3">
+                <tr>
                     <td>
                         <a href="mailto:?subject=Smart Meetings Package">
                             <img src="<?= $siteUrl ?>/images/email/shared/share-with-friend.jpg" style="width: 600px;" />
                         </a>
                     </td>
                 </tr>
+            </table>
+            <table style="width: auto; max-width: 600px; margin: 0 auto; vertical-align: top;" cellspacing="0" cellpadding="0">
                 <tr style="background: #000;">
                     <td style="width: 200px;" rowspan="2">
                         <a href="http://archerhotel.com" target="_blank">
@@ -56,6 +58,8 @@
                         </a>
                     </td>
                 </tr>
+            </table>
+            <table style="width: auto; max-width: 600px; margin: 0 auto; vertical-align: top;" cellspacing="0" cellpadding="0">
                 <tr style="background: #000;">
                     <td style="width: 200px;">
                         <a href="http://archerhotel.com/new-york" target="_blank">
