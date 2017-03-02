@@ -43,7 +43,7 @@
                     <td style="width: 400px; height: 86px;" colspan="2">
                         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                         <a href="http://facebook.com/archerhotelaustin"><img src="<?= $siteUrl ?>/images/email/shared/icon-facebook.jpg" /></a>&nbsp;
-                        <a href="twitter.com/archerhotel"><img src="<?= $siteUrl ?>/images/email/shared/icon-twitter.jpg" /></a>&nbsp;
+                        <a href="http://twitter.com/archerhotel"><img src="<?= $siteUrl ?>/images/email/shared/icon-twitter.jpg" /></a>&nbsp;
                         <a href="http://instagram.com/archerhotels"><img src="<?= $siteUrl ?>/images/email/shared/icon-instagram.jpg" /></a>&nbsp;
                         <a href="http://pinterest.com/archerhotel"><img src="<?= $siteUrl ?>/images/email/shared/icon-pinterest.jpg" /></a>&nbsp;
                         <a href="https://plus.google.com/101685866202060759232"><img src="<?= $siteUrl ?>/images/email/shared/icon-googleplus.jpg" /></a>&nbsp;
