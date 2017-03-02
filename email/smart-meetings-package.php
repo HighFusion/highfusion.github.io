@@ -33,6 +33,26 @@
                     </td>
                 </tr>
                 <tr style="background: #000;">
+                    <td style="width: 200px;" rowspan="2">
+                        <a href="http://archerhotel.com" target="_blank">
+                            <img src="<?= $siteUrl ?>/images/email/shared/footer-logo" style="display: block; width: auto; max-width: 100%; min-width: 100px;" />
+                        </a>
+                    </td>
+                    <td style="width: 400px;">
+
+                    </td>
+                </tr>
+                <tr style="background: #000;">
+                    <td style="width: 200px;">
+                        <img src="<?= $siteUrl ?>/images/email/shared/footer-phone.jpg" style="display: block; width: auto; max-width: 100%; min-width: 100px;" />
+                    </td>
+                    <td style="width: 200px;">
+                        <a href="mailto://archer@archerhotel.com" target="_blank">
+                            <img src="<?= $siteUrl ?>/images/email/shared/footer-email.jpg" style="display: block; width: auto; max-width: 100%; min-width: 100px;" />
+                        </a>
+                    </td>
+                </tr>
+                <tr style="background: #000;">
                     <td style="width: 200px;">
                         <a href="http://archerhotel.com/new-york" target="_blank">
                             <img src="<?= $siteUrl ?>/images/email/shared/footer-new-york.jpg" style="display: block; width: auto; max-width: 100%; min-width: 100px;" />
