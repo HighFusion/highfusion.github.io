@@ -32,10 +32,20 @@
                         </a>
                     </td>
                 </tr>
-                <tr>
-                    <td>
+                <tr colspan="3" style="background: #000;">
+                    <td style="width: 200px;">
                         <a href="http://archerhotel.com/new-york" target="_blank">
-                            <img src="<?= $siteUrl ?>/images/email/shared/new-york-footer.jpg" style="display: block; width: auto; max-width: 100%; min-width: 100px;" />
+                            <img src="<?= $siteUrl ?>/images/email/shared/footer-new-york.jpg" style="display: block; width: auto; max-width: 100%; min-width: 100px;" />
+                        </a>
+                    </td>
+                    <td style="width: 200px;">
+                        <a href="http://archerhotel.com/austin" target="_blank">
+                            <img src="<?= $siteUrl ?>/images/email/shared/footer-austin.jpg" style="display: block; width: auto; max-width: 100%; min-width: 100px;" />
+                        </a>
+                    </td>
+                    <td style="width: 200px;">
+                        <a href="http://archerhotel.com/napa" target="_blank">
+                            <img src="<?= $siteUrl ?>/images/email/shared/footer-napa.jpg" style="display: block; width: auto; max-width: 100%; min-width: 100px;" />
                         </a>
                     </td>
                 </tr>
