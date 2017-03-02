@@ -40,7 +40,7 @@
                             <img src="<?= $siteUrl ?>/images/email/shared/footer-logo.jpg" style="display: block; width: auto; max-width: 100%; min-width: 100px;" />
                         </a>
                     </td>
-                    <td style="width: 400px; height: 78px;">
+                    <td style="width: 400px; height: 78px;" colspan="2">
                         <a href="http://facebook.com/archerhotelaustin"><img src="<?= $siteUrl ?>/images/email/shared/icon-facebook.jpg" /></a>&nbsp;
                         <a href="twitter.com/archerhotel"><img src="<?= $siteUrl ?>/images/email/shared/icon-twitter.jpg" /></a>&nbsp;
                         <a href="http://instagram.com/archerhotels"><img src="<?= $siteUrl ?>/images/email/shared/icon-instagram.jpg" /></a>&nbsp;
