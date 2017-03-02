@@ -55,7 +55,7 @@
                         <img src="<?= $siteUrl ?>/images/email/shared/footer-phone.jpg" style="display: block; width: auto; max-width: 100%; min-width: 100px;" />
                     </td>
                     <td style="width: 200px;">
-                        <a href="mailto://archer@archerhotel.com" target="_blank">
+                        <a href="mailto:archer@archerhotel.com" target="_blank">
                             <img src="<?= $siteUrl ?>/images/email/shared/footer-email.jpg" style="display: block; width: auto; max-width: 100%; min-width: 100px;" />
                         </a>
                     </td>
