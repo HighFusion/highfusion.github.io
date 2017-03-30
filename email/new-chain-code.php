@@ -13,7 +13,7 @@
             <table style="width: auto; max-width: 600px; margin: 0 auto; vertical-align: top;" cellspacing="0" cellpadding="0">
                 <tr>
                     <td>
-                        <a href="http://archerhotel.com/book/new-chain-code">
+                        <a href="http://archerhotel.com">
                             <img src="<?= $siteUrl ?>/images/email/shared/new-chain-code.jpg" style="width: 600px;" />
                         </a>
                     </td>
