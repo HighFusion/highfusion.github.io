@@ -22,13 +22,15 @@
                 </tr>
                 <tr style="background: #000;">
                     <td style="width: 200px;">
-                        <img src="<?= $siteUrl ?>/images/email/shared/footer-austin.jpg.jpg" style="display: block; width: auto; max-width: 100%; min-width: 100px;" />
-                        <img src="<?= $siteUrl ?>/images/email/shared/footer-email.jpg" style="display: block; width: auto; max-width: 100%; min-width: 100px;" />
+                        <a href="https://archerhotel.com/austin">
+                            <img src="<?= $siteUrl ?>/images/email/shared/footer-austin.jpg" style="display: block; width: auto; max-width: 100%; min-width: 100px;" />
+                        </a>
                     </td>
                     <td style="width: 200px;">
+                        <img src="<?= $siteUrl ?>/images/email/shared/footer-phone.jpg" style="display: block; width: auto; max-width: 100%; min-width: 100px;" />
                         <a href="mailto:archer@archerhotel.com">
-                            <img src="<?= $siteUrl ?>/images/email/shared/footer-phone.jpg" style="display: block; width: auto; max-width: 100%; min-width: 100px;" />
                             <img src="<?= $siteUrl ?>/images/email/shared/footer-email.jpg" style="display: block; width: auto; max-width: 100%; min-width: 100px;" />
+                        </a>
                         </a>
                     </td>
                 </tr>
