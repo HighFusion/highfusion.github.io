@@ -33,9 +33,9 @@ $siteUrl = getenv('siteUrl')
 </table>
 <table style="width: auto; max-width: 600px; margin: 0 auto; vertical-align: top;" cellspacing="0" cellpadding="0">
     <tr style="background: #000;">
-        <td style="width: 600px; text-align: center">
+        <td style="width: 600px; text-align: center;">
             <a href="http://archerhotel.com/austin" target="_blank">
-                <img src="<?= $siteUrl ?>/images/email/shared/footer-austin.jpg" style="display: block; width: auto; max-width: 100%; min-width: 100px;" />
+                <img src="<?= $siteUrl ?>/images/email/shared/footer-austin-oneline.jpg" style="display: block; width: auto; max-width: 100%; min-width: 100px;" />
             </a>
         </td>
 
