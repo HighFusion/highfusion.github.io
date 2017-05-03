@@ -26,7 +26,7 @@
                     </td>
                 </tr>
             </table>
-			<?php include 'inc/footer.php';?>
+			<?php include 'inc/footer.austin.php';?>
             </table>
         </td>
     </tr>
