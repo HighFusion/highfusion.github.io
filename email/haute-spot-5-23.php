@@ -13,7 +13,7 @@
             <table style="width: auto; max-width: 600px; margin: 0 auto; vertical-align: top;" cellspacing="0" cellpadding="0">
                 <tr>
                     <td>
-                        <a href="http://archerhotel.com" target="_blank">
+                        <a href="http://archerhotel.com/austin/meetings-events" target="_blank">
                             <img src="<?= $siteUrl ?>/images/email/austin/haute-spot-5-23.jpg" style="width: 600px;" />
                         </a>
                     </td>
