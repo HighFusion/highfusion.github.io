@@ -20,7 +20,7 @@
                 </tr>
                 <tr>
                     <td>
-                        <a href="mailto:kristen.bray@archerhotel.com?subject=Haute Spot May 23">
+                        <a href="mailto:kristen.bray@archerhotel.com?subject=RSVP for June 5th">
                             <img src="<?= $siteUrl ?>/images/email/shared/rsvp.jpg" style="width: 600px;" />
                         </a>
                     </td>
