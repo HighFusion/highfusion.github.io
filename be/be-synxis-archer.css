@@ -10,11 +10,6 @@ body, button, input {
     display: none;
 }
 
-.hero-image_image {
-
-    background-image: url('https://be-cms-api.synxis.com/assets/chain/15904/fileStorage/image/austin-hero.jpg')!important;
-}
-
 .thumb-cards_products .thumb-cards_price {
     color: #282828;
 }
@@ -33,6 +28,211 @@ body, button, input {
     color: #cc9933!important;
 }
 
-.thumb-cards_products .app_row > div:not(:first-child) {
+.guests-and-roomsize_roomProperties {
     display: none;
+}
+
+.search-bar-container_checkIn .search-bar-container_label, .search-bar-container_checkOut .search-bar-container_label, .search-bar-container_guests .search-bar-container_label {
+    color: #5a2e98 !important;
+}
+
+.reservation-cart-container_active:before {
+    border-left: 5px solid #cc9933 !important;
+}
+
+.reservation-cart-container_active:after {
+    color: #cc9933 !important;
+}
+
+footer h6 {
+    font-family: inherit;
+    font-weight: 500;
+    line-height: 1.1;
+    color: inherit;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 12px
+}
+
+footer p {
+    margin: 0 0 10px
+}
+
+footer ul {
+    margin-top: 0;
+    margin-bottom: 10px
+}
+
+footer ul li {
+    margin: 0;
+}
+
+footer {
+    font-size: 20px !important;
+}
+
+@media(max-width:1200px) {
+    footer {
+        font-size: 18px !important
+    }
+}
+
+@media(max-width:992px) {
+    footer {
+        font-size: 15px !important
+    }
+}
+
+footer p, footer li {
+    font-weight: 100;
+    line-height: 1.5rem
+}
+
+footer p+p {
+    margin-top: 1rem
+}
+
+footer ul {
+    margin-bottom: 0
+}
+
+.vertical-padding-1, .vertical-padding {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+footer h6 {
+    line-height: 1.2rem;
+    text-transform: uppercase;
+    font-weight: 300;
+    font-size: 1.2rem
+}
+
+footer a {
+    color: #fff;
+    border-bottom: 0;
+    text-transform: uppercase;
+    font-weight: 100;
+}
+
+footer a.footer-logo {
+    border-bottom: 0 !important
+}
+
+footer a:hover, footer a:active, footer a:focus {
+    color: #bb8c2d;
+    border-bottom: 1px solid #bb8c2d;
+    text-decoration: none;
+}
+
+span.copyright, span.copyright a {
+    display: inline-block;
+    font-size: .7rem;
+    vertical-align: top;
+    letter-spacing: 2px
+}
+
+footer {
+    background: #282828;
+    color: #eee
+}
+
+nav .social-media {
+    margin-top: .5rem;
+    display: inline-block;
+    list-style: none;
+    padding-left: 0
+}
+
+nav .social-media li {
+    float: left;
+    margin-right: .5rem;
+    list-style: none
+}
+
+nav ul.social-media li a {
+    font-size: 1rem;
+    color: #f1f1f1 !important;
+    background: 0 0 !important
+}
+
+nav ul.social-media li a:hover, nav ul.social-media li a:focus, nav ul.social-media li a:active {
+    border-bottom: 0
+}
+
+nav .social-media a:hover .fa, nav .social-media a:focus .fa, nav .social-media a:active .fa {
+    color: #c93
+}
+
+footer ul, footer li {
+    list-style-type: none;
+    padding: 0
+}
+
+footer .footer-middle {
+    padding: 50px 0;
+    border-top: 1px solid #212121;
+    border-bottom: 1px solid #212121
+}
+
+footer h6, footer nav ul li, footer nav ul li a {
+    height: 2rem;
+    line-height: 2rem;
+    text-align: left
+}
+
+footer h6 {
+    color: #aaa
+}
+
+@media(min-width:992px) {
+    footer a, footer p, footer div, footer p {
+        font-size: .8rem;
+        letter-spacing: 1px
+    }
+    .footer-right-column {
+        float: right;
+        margin-right: 1rem
+    }
+}
+
+@media(max-width:992px) {
+    footer, footer p, footer h6 {
+        text-align: center
+    }
+    footer .social-media {
+        margin: 0 auto
+    }
+    footer nav ul li {
+        border-top: 1px solid #212121
+    }
+    footer nav ul li, footer nav ul li a {
+        height: 4rem;
+        line-height: 4rem;
+        text-align: center
+    }
+    footer nav ul li a {
+        display: block;
+        width: 100%;
+        color: #afafaf
+    }
+    footer nav ul li a:hover, footer nav ul li a:focus, footer nav ul li a:active {
+        background: #bb8c2d;
+        color: #fff
+    }
+    .footer-right-column {
+        float: none;
+        width: 100%
+    }
+}
+
+.fa {
+    color: #aaa;
+    margin-right: .5rem
+}
+
+@media print {
+    footer {
+        display: none
+    }
 }
