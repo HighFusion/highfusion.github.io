@@ -1,0 +1,38 @@
+body, button, input {
+    font-family: "proxima-nova", sans-serif;
+}
+
+.guests-and-roomsize_roomProperties {
+    display: none;
+}
+
+.guests-and-roomsize_roomProperties {
+    display: none;
+}
+
+.hero-image_image {
+
+    background-image: url('https://be-cms-api.synxis.com/assets/chain/15904/fileStorage/image/austin-hero.jpg')!important;
+}
+
+.thumb-cards_products .thumb-cards_price {
+    color: #282828;
+}
+
+.search-bar-container_checkIn .search-bar-container_label, 
+.search-bar-container_checkOut .search-bar-container_label, 
+.search-bar-container_guests .search-bar-container_label {
+    color: #5a2e98!important;
+}
+
+.reservation-cart-container_active:before {
+    border-left: 5px solid #cc9933!important;
+}
+
+.reservation-cart-container_active:after {
+    color: #cc9933!important;
+}
+
+.thumb-cards_products .app_row > div:not(:first-child) {
+    display: none;
+}
