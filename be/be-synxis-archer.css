@@ -1,5 +1,6 @@
 body, button, input {
     font-family: "proxima-nova", sans-serif;
+
 }
 
 .guests-and-roomsize_roomProperties {
@@ -43,6 +44,36 @@ body, button, input {
 .reservation-cart-container_active:after {
     color: #cc9933 !important;
 }
+
+/* Archer Inner Circle Rate */
+
+.thumb-cards_rate[data-rate-code=BONT] .thumb-cards_priceContainer { 
+    display: none; 
+}
+
+.thumb-cards_rate[data-rate-code=BONT] .thumb-cards_priceMessages:after { 
+    content: "Hover to View Rate";
+}
+
+@media(max-width: 768px) {
+    .thumb-cards_rate[data-rate-code=BONT] .thumb-cards_priceMessages:after {
+        content: "Click to View Rate";
+    }
+}
+
+.thumb-cards_rate[data-rate-code=BONT] .thumb-cards_priceMessages:hover:after { 
+    content: "";
+}
+
+.thumb-cards_rate[data-rate-code=BONT] .thumb-cards_priceMessages:hover .thumb-cards_priceContainer  { 
+    display: block;
+}
+
+/* .thumb-cards_rate[data-rate-code=BONT] .thumb-cards_button > button > span {
+
+} */
+
+/* Footer */
 
 footer h6 {
     font-family: inherit;
