@@ -47,31 +47,27 @@ body, button, input {
 
 /* Archer Inner Circle Rate */
 
-.thumb-cards_rate[data-rate-code=BONT] .thumb-cards_priceContainer { 
+.thumb-cards_rate[data-rate-code=AIR] .thumb-cards_priceContainer { 
     display: none; 
 }
 
-.thumb-cards_rate[data-rate-code=BONT] .thumb-cards_priceMessages:after { 
+.thumb-cards_rate[data-rate-code=AIR] .thumb-cards_priceMessages:after { 
     content: "Hover to View Rate";
 }
 
 @media(max-width: 768px) {
-    .thumb-cards_rate[data-rate-code=BONT] .thumb-cards_priceMessages:after {
+    .thumb-cards_rate[data-rate-code=AIR] .thumb-cards_priceMessages:after {
         content: "Click to View Rate";
     }
 }
 
-.thumb-cards_rate[data-rate-code=BONT] .thumb-cards_priceMessages:hover:after { 
+.thumb-cards_rate[data-rate-code=AIR] .thumb-cards_priceMessages:hover:after { 
     content: "";
 }
 
-.thumb-cards_rate[data-rate-code=BONT] .thumb-cards_priceMessages:hover .thumb-cards_priceContainer  { 
+.thumb-cards_rate[data-rate-code=AIR] .thumb-cards_priceMessages:hover .thumb-cards_priceContainer  { 
     display: block;
 }
-
-/* .thumb-cards_rate[data-rate-code=BONT] .thumb-cards_button > button > span {
-
-} */
 
 /* Footer */
 
