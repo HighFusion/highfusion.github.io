@@ -3,13 +3,10 @@ body, button, input {
 
 }
 
-.guests-and-roomsize_roomProperties {
+.guests-and-roomsize_roomProperties, .detail-view-room_roomDetails > span, .guest-info_loyaltyProgram {
     display: none;
 }
 
-.guests-and-roomsize_roomProperties {
-    display: none;
-}
 
 .thumb-cards_products .thumb-cards_price {
     color: #282828;
@@ -29,9 +26,7 @@ body, button, input {
     color: #cc9933!important;
 }
 
-.guests-and-roomsize_roomProperties {
-    display: none;
-}
+
 
 .search-bar-container_checkIn .search-bar-container_label, .search-bar-container_checkOut .search-bar-container_label, .search-bar-container_guests .search-bar-container_label {
     color: #5a2e98 !important;
@@ -45,7 +40,7 @@ body, button, input {
     color: #cc9933 !important;
 }
 
-/* Archer Inner Circle Rate */
+/* Archer Inner Circle Rate - disabled on purpose
 
 .thumb-cards_rate[data-rate-code=AIR] .thumb-cards_priceContainer { 
     display: none; 
