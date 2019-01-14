@@ -1,0 +1,97 @@
+<footer>
+    <div class="container-fluid">
+        <div class="row footer-top">
+            <div class="col-md-6 col-sm-12 col-xs-12">
+                <a href="https://archerhotel.com/" class="footer-logo"><img src="assets/chain/15904/fileStorage/image/archer-hotel-logo-footer.png" alt="Archer Hotel Logo" /></a>
+            </div>
+            <div class="col-md-6 hidden-sm hidden-xs text-right"></div>
+        </div>
+        <div class="row footer-middle">
+            <div class="col-md-6 col-sm-12">
+                <div class="row panel-group">
+                    <div class="col-md-4">
+						<h6 id="lblFooterLocationMenuHeader">Locations</h6>
+						<nav aria-labelledby="lblFooterLocationMenuHeader">
+							<ul class="notranslate">
+								<li><a href="https://archerhotel.com/austin">Austin</a></li>
+								<li><a href="https://archerhotel.com/burlington">Burlington</a></li>
+								<li><a href="https://archerhotel.com/florham-park">Florham Park</a></li>
+								<li><a href="https://archerhotel.com/napa">Napa</a></li>
+								<li><a href="https://archerhotel.com/new-york">New York</a></li>
+								<li><a href="https://archerhotel.com/redmond">Redmond</a></li>
+							</ul>
+						</nav>
+                    </div>
+                    <div class="col-md-4">
+						<h6 id="lblFooterAdditionalInfoMenuHeader">Info</h6>
+						<nav aria-labelledby="lblFooterAdditionalInfoMenuHeader">
+							<ul>
+								<li><a href="https://archerhotel.com/contact">Contact</a></li>
+								<li><a href="https://archerhotel.com/press">Press</a></li>
+								<li><a href="https://archerhotel.com/careers">Careers</a></li>
+								<li><a href="https://archerhotel.com/policies">Policies</a></li>
+								<li><a href="https://archerhotel.com/privacy-policy">Your Privacy</a></li>
+								<li><a href="https://archerhotel.com/web-accessibility">Web Accessibility</a></li>
+							</ul>
+						</nav>                       
+                    </div>
+                    <div class="col-md-4">
+						<h6 class="text-nowrap" id="lblFooterUniqueMenuHeader">Uniquely <span class="notranslate">Archer</span></h6>
+						<nav aria-labelledby="lblFooterUniqueMenuHeader">
+							<ul>
+								<li><a href="https://archerhotel.com/blog" target="_blank" class="notranslate">Archer Blog</a></li>
+								<li><a href="https://archerhotel.com/join">Join</a></li>
+								<li><a href="https://archerhotel.com/loyalty">Loyalty</a></li>
+								<li><a href="https://archerhotel.com/sleep-experience">Sleep Experience</a></li>
+							</ul>
+						</nav>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-sm-12 text-uppercase">
+                <div class="footer-right-column" itemscope itemtype="http://schema.org/LocalBusiness">
+                    <p><a href="tel:8554379100">Toll-Free: 855.437.9100</a></p>
+                    <p>
+                        <a href="mailto:hello@archerhotel.com">hello@archerhotel.com</a>
+                    </p>
+                    <p>&nbsp;</p>
+                    <nav aria-label="Social Media Menu">
+                        <ul class="social-media">                           
+                            <li><a href="https://twitter.com/ArcherHotel" title="Archer Hotel Twitter Feed" aria-label="Twitter" target="_blank"><i class="fa fa-twitter-square fa-2x" aria-hidden="true"></i><span class="sr-only">Twitter</span></a></li>
+                            <li><a href="http://instagram.com/archerhotels/" title="Archer Hotel Instagram" aria-label="Instagram" target="_blank"><i class="fa fa-instagram fa-2x" aria-hidden="true"></i><span class="sr-only">Instagram</span></a></li>
+                            <li><a href="https://vimeo.com/archerhotel" title="Archer Hotel Vimeo Channel" aria-label="Vimeo" target="_blank"><i class="fa fa-vimeo-square fa-2x" aria-hidden="true"></i><span class="sr-only">Vimeo</span></a></li>
+                            <li><a href="https://www.linkedin.com/company/archer-hotel" title="Archer Hotel LinkedIn Profile" aria-label="LinkedIn" target="_blank"><i class="fa fa-linkedin-square fa-2x" aria-hidden="true"></i><span class="sr-only">LinkedIn</span></a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </div>
+        <div class="row vertical-padding-1">
+            <div class="col-md-12">
+                <span class="copyright text-uppercase notranslate">&copy; 2018 <a href="http://lodgeworks.com" target="_blank">LodgeWorks Partners L.P.</a></span> </div>
+        </div>
+    </div>
+</footer>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script>
+    $(document).ready(function() {
+        var getUrlParameter = function getUrlParameter(sParam) {
+            var sPageURL = decodeURIComponent(window.location.search.substring(1)),
+                sURLVariables = sPageURL.split('&'),
+                sParameterName,
+                i;
+
+            for (i = 0; i < sURLVariables.length; i++) {
+                sParameterName = sURLVariables[i].split('=');
+
+                if (sParameterName[0] === sParam) {
+                    return sParameterName[1] === undefined ? true : sParameterName[1];
+                }
+            }
+        };
+
+        var hotelID = getUrlParameter('hotel');
+        $('.hero-image_image').css('background-image', 'url(/assets/chain/15904/fileStorage/image/hero-' + hotelID + '.jpg)');
+    });
+</script>
+<script src="assets/chain/15904/fileStorage/customization/bottom.js"></script>
