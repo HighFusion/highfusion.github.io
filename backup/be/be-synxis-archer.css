@@ -3,21 +3,12 @@ body, button, input {
 
 }
 
-
-
 .guests-and-roomsize_roomProperties, .detail-view-room_roomDetails > span, .guest-info_loyaltyProgram {
     display: none;
 }
 
 .thumb-cards_products .thumb-cards_price {
     color: #282828;
-}
-
-.thumb-cards_roomShortDesc > p
-{
-    list-style-type: disc;
-    display: list-item;
-    margin-left: 20px;
 }
 
 .search-bar-container_checkIn .search-bar-container_label, 
