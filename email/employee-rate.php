@@ -10,67 +10,61 @@
 <table style="width: 100%;">
     <tr>
         <td align="left">
-            <table style="width: 600px; border: 1px solid #000; max-width: 600px; margin: 0; vertical-align: top;" cellspacing="0" cellpadding="0">
+            <table style="width: 600px; max-width: 600px; margin: 0; vertical-align: top;" cellspacing="0" cellpadding="0">
+                <tr>
+                    <td>
+                        <a href="http://archerhotel.com" target="_blank">
+                            <img src="<?= $siteUrl ?>/images/email/rates/employee/header.jpg" style="display: block; width: auto; max-width: 100%; min-width: 100px;" />
+                        </a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="https://book.archerhotel.com/?configcode=AHGC&hotel=67720&level=hotel&locale=en-US&promo=20EMPLOYEE&themecode=AHCT">
+                            <img src="<?= $siteUrl ?>/images/email/rates/employee/austin.jpg" style="display: block; width: auto; max-width: 100%; min-width: 100px;" />
+                        </a>
+                    </td>
+                </tr>   
+                <tr>
+                    <td>
+                        <a href="https://book.archerhotel.com/?configcode=AHGC&hotel=77757&level=hotel&locale=en-US&promo=20EMPLOYEE&themecode=AHCT">
+                            <img src="<?= $siteUrl ?>/images/email/rates/employee/burlington.jpg" style="display: block; width: auto; max-width: 100%; min-width: 100px;" />
+                        </a>
+                    </td>
+                </tr>  
+                <tr>
+                    <td>
+                        <a href="https://book.archerhotel.com/?configcode=AHGC&hotel=76198&level=hotel&locale=en-US&promo=20EMPLOYEE&themecode=AHCT">
+                            <img src="<?= $siteUrl ?>/images/email/rates/employee/florham-park.jpg" style="display: block; width: auto; max-width: 100%; min-width: 100px;" />
+                        </a>
+                    </td>
+                </tr>  
+                <tr>
+                    <td>
+                        <a href="https://book.archerhotel.com/?configcode=AHGC&hotel=70482&level=hotel&locale=en-US&promo=20EMPLOYEE&themecode=AHCT">
+                            <img src="<?= $siteUrl ?>/images/email/rates/employee/napa.jpg" style="display: block; width: auto; max-width: 100%; min-width: 100px;" />
+                        </a>
+                    </td>
+                </tr>  
+                <tr>
+                    <td>
+                        <a href="https://book.archerhotel.com/?configcode=AHGC&hotel=60268&level=hotel&locale=en-US&promo=20EMPLOYEE&themecode=AHCT">
+                            <img src="<?= $siteUrl ?>/images/email/rates/employee/new-york.jpg" style="display: block; width: auto; max-width: 100%; min-width: 100px;" />
+                        </a>
+                    </td>
+                </tr>  
+                <tr>
+                    <td>
+                        <a href="https://book.archerhotel.com/?configcode=AHGC&hotel=5998&level=hotel&locale=en-US&promo=20EMPLOYEE&themecode=AHCT">
+                            <img src="<?= $siteUrl ?>/images/email/rates/employee/redmond.jpg" style="display: block; width: auto; max-width: 100%; min-width: 100px;" />
+                        </a>
+                    </td>
+                </tr>                                                                        
                 <tr>
                     <td colspan="2">
                         <a href="http://archerhotel.com" target="_blank">
-                            <img src="<?= $siteUrl ?>/images/email/lodgeworks-rates/header-employee.jpg" style="display: block; width: auto; max-width: 100%; min-width: 100px;" />
+                            <img src="<?= $siteUrl ?>/images/email/rates/employee/footer.jpg" style="display: block; width: auto; max-width: 100%; min-width: 100px;" />
                         </a>
-                    </td>
-                </tr>
-                <tr>
-                    <td style="border-bottom: 5px solid #cc9933;">
-                        <a href="http://archerhotel.com/austin">
-                            <img src="<?= $siteUrl ?>/images/email/lodgeworks-rates/austin.jpg" style="display: block; width: auto; max-width: 100%; min-width: 100px;" />
-                        </a>
-                    </td>
-                    <td style="border-bottom: 5px solid #cc9933;">
-                        <a href="https://gc.synxis.com/?chain=15904&hotel=67720&promo=ARCHEMPL">
-                            <img src="<?= $siteUrl ?>/images/email/lodgeworks-rates/austin.book.jpg" style="display: block; width: auto; max-width: 100%; min-width: 100px;" />
-                        </a>
-                    </td>
-                </tr>
-                <tr>
-                    <td style="border-bottom: 5px solid #cc9933;">
-                        <a href="http://archerhotel.com/napa">
-                            <img src="<?= $siteUrl ?>/images/email/lodgeworks-rates/napa.jpg" style="display: block; width: auto; max-width: 100%; min-width: 100px;" />
-                        </a>
-                    </td>
-                    <td style="border-bottom: 5px solid #cc9933;">
-                        <a href="https://gc.synxis.com/?chain=15904&hotel=70482&promo=ARCHEMPL">
-                            <img src="<?= $siteUrl ?>/images/email/lodgeworks-rates/napa.book.jpg" style="display: block; width: auto; max-width: 100%; min-width: 100px;" />
-                        </a>
-                    </td>
-                </tr>
-                <tr>
-                    <td style="border-bottom: 5px solid #cc9933;">
-                        <a href="http://archerhotel.com/new-york">
-                            <img src="<?= $siteUrl ?>/images/email/lodgeworks-rates/new-york.jpg" style="display: block; width: auto; max-width: 100%; min-width: 100px;" />
-                        </a>
-                    </td>
-                    <td style="border-bottom: 5px solid #cc9933;">
-                        <a href="https://gc.synxis.com/?chain=15904&hotel=60268&promo=ARCHEMPL">
-                            <img src="<?= $siteUrl ?>/images/email/lodgeworks-rates/new-york.book.jpg" style="display: block; width: auto; max-width: 100%; min-width: 100px;" />
-                        </a>
-                    </td>
-                </tr>
-                <tr style="background: #000;">
-                    <td colspan="2">
-                        <a href="http://archerhotel.com" target="_blank">
-                            <img src="<?= $siteUrl ?>/images/email/shared/archer-footer.jpg" style="display: block; width: auto; max-width: 100%; min-width: 100px;" />
-                        </a>
-                    </td>
-                </tr>
-                <tr style="background: #000;">
-                    <td style="background: #000; color: #bbb; padding: 10px 10px; text-align: center;" colspan="2">
-                        <a href="https://www.facebook.com/search/top/?q=Archer%20Hotel" target="_blank"><img src="<?= $siteUrl ?>/images/social/facebook.png" /></a>&nbsp;
-                        <a href="https://twitter.com/ArcherHotel" target="_blank"><img src="<?= $siteUrl ?>/images/social/twitter.png" /></a>&nbsp;
-                        <a href="https://www.instagram.com/archerhotels/" target="_blank"><img src="<?= $siteUrl ?>/images/social/instagram.png" /></a>
-                    </td>
-                </tr>
-                <tr style="background: #000;">
-                    <td style="background: #000; color: #bbb; padding: 10px 10px; width: 600px" width="600" colspan="2">
-                        <p><small>*Subject to availability. Cannot be combined with any other offers. Limited to three rooms per night. Employee must stay at the hotel for the duration of the stay.</small></p>
                     </td>
                 </tr>
             </table>
