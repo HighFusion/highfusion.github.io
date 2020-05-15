@@ -5,77 +5,77 @@
     <?php
     $siteUrl = getenv('siteUrl')
     ?>
+    <meta http-equiv="Content-Type" content="text/html charset=UTF-8" />
 </head>
 <body style="background-color: #eee; color: #222222; font-family: Helvetica, Arial, sans-serif; font-size: 14px;">
-<table style="width: 100%">
-    <tr>
-        <td align="left">
-            <table style="width: auto; border: 1px solid #000; max-width: 600px; margin: 0; vertical-align: top;" cellspacing="0" cellpadding="0">
-                <tr>
-                    <td colspan="2">
-                        <a href="http://archerhotel.com" target="_blank">
-                            <img src="<?= $siteUrl ?>/images/email/lodgeworks-rates/header-family.jpg" style="display: block; width: auto; max-width: 100%; min-width: 100px;" />
-                        </a>
-                    </td>
-                </tr>
-                <tr>
-                    <td style="border-bottom: 5px solid #cc9933;">
-                        <a href="http://archerhotel.com/austin">
-                            <img src="<?= $siteUrl ?>/images/email/lodgeworks-rates/austin.jpg" style="display: block; width: auto; max-width: 100%; min-width: 100px;" />
-                        </a>
-                    </td>
-                    <td style="border-bottom: 5px solid #cc9933;">
-                        <a href="https://gc.synxis.com/?chain=15904&hotel=67720&promo=ARCHEMFA">
-                            <img src="<?= $siteUrl ?>/images/email/lodgeworks-rates/austin.book.jpg" style="display: block; width: auto; max-width: 100%; min-width: 100px;" />
-                        </a>
-                    </td>
-                </tr>
-                <tr>
-                    <td style="border-bottom: 5px solid #cc9933;">
-                        <a href="http://archerhotel.com/napa">
-                            <img src="<?= $siteUrl ?>/images/email/lodgeworks-rates/napa.jpg" style="display: block; width: auto; max-width: 100%; min-width: 100px;" />
-                        </a>
-                    </td>
-                    <td style="border-bottom: 5px solid #cc9933;">
-                        <a href="https://gc.synxis.com/?chain=15904&hotel=70482&promo=ARCHEMFA">
-                            <img src="<?= $siteUrl ?>/images/email/lodgeworks-rates/napa.book.jpg" style="display: block; width: auto; max-width: 100%; min-width: 100px;" />
-                        </a>
-                    </td>
-                </tr>
-                <tr>
-                    <td style="border-bottom: 5px solid #cc9933;">
-                        <a href="http://archerhotel.com/new-york">
-                            <img src="<?= $siteUrl ?>/images/email/lodgeworks-rates/new-york.jpg" style="display: block; width: auto; max-width: 100%; min-width: 100px;" />
-                        </a>
-                    </td>
-                    <td style="border-bottom: 5px solid #cc9933;">
-                        <a href="https://gc.synxis.com/?chain=15904&hotel=60268&promo=ARCHEMFA">
-                            <img src="<?= $siteUrl ?>/images/email/lodgeworks-rates/new-york.book.jpg" style="display: block; width: auto; max-width: 100%; min-width: 100px;" />
-                        </a>
-                    </td>
-                </tr>
-                <tr style="background: #000;">
-                    <td colspan="2">
-                        <a href="http://archerhotel.com" target="_blank">
-                            <img src="<?= $siteUrl ?>/images/email/shared/archer-footer.jpg" style="display: block; width: auto; max-width: 100%; min-width: 100px;" />
-                        </a>
-                    </td>
-                </tr>
-                <tr style="background: #000;">
-                    <td style="background: #000; color: #bbb; padding: 10px 10px; text-align: center;" colspan="2">
-                        <a href="https://www.facebook.com/search/top/?q=Archer%20Hotel" target="_blank"><img src="<?= $siteUrl ?>/images/social/facebook.png" /></a>&nbsp;
-                        <a href="https://twitter.com/ArcherHotel" target="_blank"><img src="<?= $siteUrl ?>/images/social/twitter.png" /></a>&nbsp;
-                        <a href="https://www.instagram.com/archerhotels/" target="_blank"><img src="<?= $siteUrl ?>/images/social/instagram.png" /></a>
-                    </td>
-                </tr>
-                <tr style="background: #000;">
-                    <td style="background: #000; color: #bbb; padding: 10px 10px;" colspan="2">
-                        <p><small>*Subject to availability. Cannot be combined with any other offers. Limited to three rooms per night.</small></p>
-                    </td>
-                </tr>
-            </table>
-        </td>
-    </tr>
-</table>
+    <table style="background-color: #faf5e5; width: 600px; max-width: 600px!important; margin: 0; vertical-align: middle;" cellspacing="5" cellpadding="0" width="600">
+        <tr>
+            <td colspan="3" width="600" style="text-align: center">
+                <a href="http://archerhotel.com" target="_blank">
+                    <img src="<?= $siteUrl ?>/images/email/rates/friends-family/header.jpg" />
+                </a>
+            </td>
+        </tr>
+        <tr>
+            <td width="200">
+                <a href="https://book.archerhotel.com/?configcode=AHGC&hotel=67720&level=hotel&locale=en-US&promo=20FRIENDS&themecode=AHCT">
+                    <img src="<?= $siteUrl ?>/images/email/rates/friends-family/austin.jpg" />
+                </a>
+            </td>
+            <td width="200">
+                <a href="https://book.archerhotel.com/?configcode=AHGC&hotel=77757&level=hotel&locale=en-US&promo=20FRIENDS&themecode=AHCT">
+                    <img src="<?= $siteUrl ?>/images/email/rates/friends-family/burlington.jpg" />
+                </a>
+            </td>
+            <td>
+                <a href="https://book.archerhotel.com/?configcode=AHGC&hotel=76198&level=hotel&locale=en-US&promo=20FRIENDS&themecode=AHCT">
+                    <img src="<?= $siteUrl ?>/images/email/rates/friends-family/florham-park.jpg" />
+                </a>
+            </td>
+        </tr>  
+        <tr>
+            <td width="200" width="200">
+                <a href="https://book.archerhotel.com/?configcode=AHGC&hotel=70482&level=hotel&locale=en-US&promo=20FRIENDS&themecode=AHCT">
+                    <img src="<?= $siteUrl ?>/images/email/rates/friends-family/napa.jpg" />
+                </a>
+            </td>
+            <td width="200">
+                <a href="https://book.archerhotel.com/?configcode=AHGC&hotel=60268&level=hotel&locale=en-US&promo=20FRIENDS&themecode=AHCT">
+                    <img src="<?= $siteUrl ?>/images/email/rates/friends-family/new-york.jpg" />
+                </a>
+            </td>
+            <td width="200">
+                <a href="https://book.archerhotel.com/?configcode=AHGC&hotel=5998&level=hotel&locale=en-US&promo=20FRIENDS&themecode=AHCT">
+                    <img src="<?= $siteUrl ?>/images/email/rates/friends-family/redmond.jpg" />
+                </a>
+            </td>
+        </tr>   
+        <tr>
+            <td width="200">
+                <a href="https://archerhotel.com/tysons">
+                    <img src="<?= $siteUrl ?>/images/email/rates/friends-family/tysons.jpg" />
+                </a>
+            </td>
+            <td width="200">
+                <a href="https://archerhotel.com">
+                    <img src="<?= $siteUrl ?>/images/email/rates/friends-family/brand.jpg" />
+                </a>
+            </td>
+            <td style="background-color: #d8ab27; text-align: center" width="200">
+                <img src="<?= $siteUrl ?>/images/email/rates/friends-family/message.jpg" />
+                <br>
+                <a href="https://www.facebook.com/search/top/?q=Archer%20Hotel" target="_blank"><img src="<?= $siteUrl ?>/images/social/facebook.png" /></a>&nbsp;
+                <a href="https://twitter.com/ArcherHotel" target="_blank"><img src="<?= $siteUrl ?>/images/social/twitter.png" /></a>&nbsp;
+                <a href="https://www.instagram.com/archerhotels/" target="_blank"><img src="<?= $siteUrl ?>/images/social/instagram.png" /></a>
+            </td>
+        </tr>                                                                                      
+        <tr>
+            <td colspan="3" width="600" >
+                <a href="http://archerhotel.com" target="_blank">
+                    <img src="<?= $siteUrl ?>/images/email/rates/friends-family/footer.jpg" />
+                </a>
+            </td>
+        </tr>
+    </table>
 </body>
 </html>
